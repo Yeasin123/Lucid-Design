@@ -1,0 +1,542 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .isStuck{
+    left:0;
+    right:0;
+    background:#008ED6;
+    width:100%;
+ }
+
+.navbar-wrapper {
+  margin-top:0px;
+  position: relative;
+  z-index: 55;
+}
+/****************************
+    Header SEction Start
+****************************/
+    
+   .header-section  .fa-grip-lines {
+      margin-right:3rem;
+    }
+    .header-section{
+        background-size:cover;
+        text-align: center
+    }
+    .header-section .active{
+        background:none;
+    }
+    .header-section .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: .2rem;
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+    }
+    .left-header {
+        margin-top: 0rem;
+    }
+    .navbar-brand img {
+    width: 7rem;
+    margin: 1.2rem 0 0 3rem;
+    }
+    .header-section .navbar-toggler-icon {
+        margin-right: 4rem;
+         margin-bottom: 1rem;
+        background: #A5A0A0;
+        border-radius: 50%;
+       
+    }
+        .header-section .navbar-expand-md .navbar-nav .nav-link {
+        text-align: center;
+        background: #655252; 
+        width: 92%;   
+    }
+    .left-header h2 {
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+   }
+    .left-header p {
+        font-size: 1rem;
+    }
+    .header-section .btn-primary{
+        padding: 0.5rem 1rem;
+        font-size: 1rem
+    }
+    .header-section .btn-info{
+        padding: 0.5rem 1rem;
+        font-size: 1rem
+    }
+    .btn-inner{
+        text-align:center;
+    }
+   .header-section .device {
+    float: none;
+    text-align: center;
+    }
+   
+
+/****************************
+    Header SEction End
+****************************/
+    
+/****************************
+    Feature SEction Start
+****************************/
+    
+    .feature-title h3 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    background: url(../images/nav-img.png) center bottom no-repeat;
+    padding-bottom: 2rem;
+    text-align: center;
+    margin-bottom: 3rem;
+     }
+    
+    .left-moblie .left-moblie-img {
+        width: 79%;
+        margin-left: 3rem;
+     }
+    .feature-section{
+        text-align: center;
+    }
+    .right-content h2{
+    background:url(../images/nav-img.png) center bottom no-repeat;
+     }
+    .right-content h5 {
+        padding: .8rem 0;
+        margin-top: 3rem;
+        text-align: center;
+    }
+    right-content h2 {
+        padding: 1.3rem 0;
+    }
+    .right-content p {
+        font-size: 1.1rem;
+    }
+    .customize-section{
+        text-align:center;
+    }
+    .customize-left h2 {
+    background: url(../images/nav-img.png) center bottom no-repeat;
+   }
+    .customize-left p{
+        font-size:1rem;
+    }
+    .inner-feature {
+    width: 100%;
+    padding: 2.5rem 0rem;
+    text-align: center;
+    margin: 1.5rem 0rem;
+    }
+    .card{
+        width:56%;
+        margin:2rem auto;
+    }
+    
+
+/****************************
+    Feature SEction End
+****************************/      
+    
+* 
+/****************************
+   Quality-Submit SEction Start
+****************************/    
+    .card{
+        width:55%;
+        margin:2rem auto;
+    } 
+    .card .price {
+    padding: 1.5rem 0 0.5rem 0;
+    }
+    .card .card-content p {
+    padding: 1.5rem 0 1rem 0;
+    }
+    .btn-price {
+    margin-top: 1rem;
+    }
+    .btn-success {
+    padding: 1rem 3rem;
+    }
+    .qulity-submit-text h2 {
+    font-size: 1.5rem;
+    }
+    .qulity-submit-text span{
+        font-size: 1.5rem;
+    }
+   .qulity-submit-btn .btn-primary {  
+    padding: .5rem 2.5rem;
+    font-size: 1.1rem;
+     }
+    .qulity-submit-btn .btn-info {
+    padding: .5rem 2.5rem;
+    font-size: 1.1rem;
+    }
+    .qulity-submit-btn {
+    float: none;
+    margin-top: 1.2rem;
+    text-align: center;
+   }
+    .qulity-submit-text {
+    text-align: center;
+    }
+    
+    
+    
+/****************************
+    Quality-Submit SEction End
+****************************/   
+    
+    
+/****************************
+    Contact SEction Start
+****************************/
+    
+    .contact-section {
+    width: 100%;
+    padding: 3rem 0;
+    background: #ededed;
+    text-align: center;
+  
+   }
+    .main-form .left-form {
+      width:88%;
+     }
+    .main-form .right-form {
+    width: 88%;
+    margin: 2rem 0 0 4.8rem;
+    }
+    
+    .text-btn .btn-primary{
+        float:none;
+    }
+    
+    
+  /****************************
+    Contact SEction End
+****************************/
+    
+    
+/****************************
+  Testtimonial SEction Start
+****************************/
+.owl-carousel .item h5 {
+    font-size: 12px;
+    line-height: 17px;
+    padding:0 0 0 3rem;
+     }
+ .owl-carousel .item .media img {
+    width: 20%;
+    margin-left: 24px;
+    }
+    .media-body {
+        margin:0;
+    }
+
+
+/****************************
+   Testtimonial SEction End
+****************************/
+      
+    
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+        .isStuck{
+    left:0;
+    right:0;
+    background:#008ED6;
+    width:100%;
+ }
+
+.navbar-wrapper {
+  margin-top:0px;
+  position: relative;
+  z-index: 55;
+}
+ /****************************
+    Header SEction Start
+****************************/
+    
+    .header-section  .fa-grip-lines {
+      margin-right:6rem;
+    }
+     .header-section{
+        background-size:cover;
+        text-align: center
+    }
+    
+     .navbar-brand img {
+    width: 7rem;
+    margin: 1.2rem 0 0 3rem;
+    }
+    
+    .btn-inner{
+        margin-left: 6rem;
+        padding-bottom: 3rem;
+    }
+    .header-section .device {
+    width: 60%;
+    float: none;
+    text-align: center;
+    }
+      .header-section .navbar-expand-md .navbar-nav .nav-link {
+        text-align: center;
+        background: #655252; 
+        width: 92%;   
+    }
+     
+    
+/****************************
+    Header SEction End
+****************************/  
+    
+ /****************************
+    Feature SEction Start
+****************************/
+    .inner-feature {
+        padding: 1.5rem 0rem;
+        margin-bottom: 2rem;
+    }
+    .left-moblie .left-moblie-img {
+        width: 60%;
+        margin-left: 9rem;
+        padding-bottom
+    }
+    .card{
+        width:60%;
+        margin:2rem auto;
+    } 
+    .card .price {
+    padding: 1.5rem 0 0.5rem 0;
+    }
+    .card .card-content p {
+    padding: 1.5rem;
+    }
+    .btn-price {
+    margin-top: 1rem;
+    }
+    .inner-feature p {
+    padding: 0 10rem;
+    }
+    .owl-carousel .item h5 {
+    font-size: 12px;
+    line-height: 17px;
+    padding:0 13rem 0 0;
+     }
+    .owl-carousel .item .media img{
+    margin-right: 2rem;
+   }
+    .media-body {
+    margin: 0;
+    }
+    
+
+    
+ /****************************
+    Feature SEction ENd
+****************************/    
+
+ /****************************
+    Testtimonial SEction Start 
+****************************/    
+  
+
+   .text-btn .btn-primary {
+    margin-right: 73px;
+   }
+
+
+
+ /****************************
+   Testtimonial SEction End
+****************************/    
+
+ /****************************
+   Qulity-Submit SEction Start
+****************************/  
+
+     .qulity-submit-text h2 {
+        font-size: 2.2rem;
+        margin-left: 1.1rem;
+    }
+    .qulity-submit-text span{
+        font-size: 2.2rem;
+    }
+     .qulity-submit-text {
+    margin-bottom: 1rem;
+    text-align: center;
+    }
+   .qulity-submit-btn {
+    float: none;
+    margin-top: .3rem;
+    text-align: center;
+    }
+    .right-form textarea {
+    width: 75%;
+    margin-left: 54px;
+    margin-top: 28px;
+    }
+    .feature-section{
+        text-align: center;
+    }
+    .right-content h2{
+    background:url(../images/nav-img.png) center bottom no-repeat;
+    font-size: 2.7rem;
+     }
+    .right-content h5 {
+        padding: .8rem 0;
+        margin-top: 3rem;
+        text-align: center;
+    }
+    .right-content p {
+    font-size: 1.5rem;
+    padding: 0 8rem;
+    }
+    .right-content p {
+        font-size: 1.5rem;
+    }
+    .customize-section{
+        text-align:center;
+    }
+    .customize-left h2 {
+    background: url(../images/nav-img.png) center bottom no-repeat;
+    font-size:2.8rem;    
+   }
+    .customize-left p {
+    padding: 0 8rem;
+   }
+
+
+/****************************
+   Qulity-Submit SEction End
+****************************/
+
+/****************************
+  Testtimonial SEction Start
+****************************/
+.testimonial h3 {
+    font-size:22px;
+}
+
+
+/****************************
+   Testtimonial SEction End
+****************************/
+  
+}
+
+
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+        .isStuck{
+    left:0;
+    right:0;
+    background:#008ED6;
+    width:100%;
+ }
+
+.navbar-wrapper {
+  margin-top:0px;
+  position: relative;
+  z-index: 55;
+}
+    
+    
+  .left-header p {
+    font-size: 1.7rem;
+  }
+    .header-section .btn-primary {
+    padding: 1rem 2rem;
+    margin-right: .5rem;
+    font-size: 1.3rem;
+    }
+    .header-section .btn-info {
+    color: #fff;
+    background-color: transparent;
+    border-color: #007bff;
+    padding: 1rem 2.9rem;
+    border-radius: 0.4rem;
+    border: .1rem solid #4b494d;
+    font-size: 1.3rem;
+    transition: 1s;
+   }
+    .left-header {
+    margin-top: 2rem;
+   }
+    .header-section .btn-inner{
+        margin-bottom: 1rem;
+    }
+    .inner-feature p{
+        font-size:1.2rem;
+    }
+    .customize-left p {
+    font-size: 1.2rem;
+   }
+    .card .price {
+    padding: 2.5rem;
+    }
+    .card .card-content p {
+    padding: 1rem 0rem;
+   }
+    .btn-success {
+    padding: 1rem 2rem;
+    }
+    .qulity-submit-text span {
+    font-size: 1.5rem;
+    margin-bottom:0
+    }
+    .qulity-submit-text h2{
+        font-size:2rem;
+        margin-bottom: 0;
+    }
+    .owl-carousel .item h5 {
+        padding:0 28rem 0 0;
+        }
+   .header-section .device {
+	margin-top: 9rem;
+	width: 80%;
+   }
+     
+  
+}
+@media (min-width:1025px) and (max-width: 2150px) {
+        .isStuck{
+    left:0;
+    right:0;
+    background:#008ED6;
+    width:100%;
+ }
+
+.navbar-wrapper {
+  margin-top:0px;
+  position: relative;
+  z-index: 55;
+}
+ 
+/*
+    .owl-carousel .item h5 {
+       padding:0 31rem 0 0;
+    }
+*/
+}
+
+

@@ -1,0 +1,575 @@
+*{
+    padding: 0px;
+    margin:0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body .material-scrolltop{
+    background:#1c1421;
+    border:.2rem solid #4e5c6c;
+}
+.material-scrolltop i{
+    font-size:3rem;
+    color:#fff;
+}
+.material-scrolltop:hover{
+    background:#000221;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:1.5rem;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/******************************************
+    Header Section Code Start
+*******************************************/
+nav{
+    width:100%
+}
+.header-section{
+    width:100%;
+    background:url(../images/header-img-2.png) center top no-repeat;
+    background-size:cover;
+    padding:1.5rem 0 2rem 0;
+    overflow: hidden;
+}
+.right-header {
+        width:100%;
+     }
+.fa-grip-lines {
+    content: "\f7a4";
+    color: #fff;
+    font-size: 2.4rem;
+    background: #08c;
+    padding: .3rem .8rem;
+}
+.header-section .navbar-toggler{
+  
+}
+
+.navclass {
+    background: transparent;
+    padding: 3.3rem 0rem;
+}
+.left-header{
+    margin-top: 10rem;
+}
+
+ .header-section .navbar-expand-md .navbar-nav .nav-link{
+    padding-right: .5rem;
+    padding-left: .5rem;
+    margin-left: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+     color:#fff;
+}
+
+.header-section .active{
+    background:url(../images/nav-img.png) bottom no-repeat;
+}
+.header-section .navbar-expand-md .navbar-nav .nav-link:hover{
+     background:url(../images/nav-img.png) bottom no-repeat;
+}
+.left-header h5{
+    color: #0476b1;
+    padding:2rem 0;
+}
+.left-header h2 {
+    color: #fff;
+    font-size: 2.8rem;
+    font-weight: 600;
+    line-height: 3.5rem;
+    padding-bottom: 1rem;
+}
+
+.left-header p{
+    color:#999999;
+    padding-bottom: 2.5rem;
+}
+.header-section .btn-primary {
+    color: #fff;
+    background-color: #008ed6;
+    border-color: #007bff;
+    padding: 1rem 3.1rem;
+    border-radius: 0.4rem;
+    margin-right: 2.5rem;
+    font-size: 1.3rem;
+}
+.header-section .btn-info{
+    color: #fff;
+    background-color:transparent;
+    border-color: #007bff;
+    padding: 1rem 3.5rem;
+    border-radius: 0.4rem;
+    border:.1rem solid #4b494d;
+    font-size: 1.3rem;
+    transition: 1s;
+ 
+}
+.header-section .btn-info:hover{
+    background-color: #008ed6;
+    transition: 1s;
+}
+.header-section .device{
+     width: 63%;
+    float:right;
+    margin-top:2rem;
+}
+
+/******************************************
+    Header Section Code End
+*******************************************/
+
+/******************************************
+    Feature Section Code End
+*******************************************/
+.feature-section{
+    width:100%;
+    background:#ffffff;
+    padding:4rem 0;
+    
+}
+.feature-section h5 {
+    color: #0476b1;
+    padding: 2rem 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+.feature-title  h3{
+    font-size: 3rem;
+    font-weight:600;
+    color:#1a1a1a;
+    background:url(../images/nav-img.png) center bottom no-repeat;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.inner-feature {
+    width: 100%;
+    padding: 4.5rem 0rem;
+    text-align: center;
+    margin-bottom: 7rem;
+}
+
+.inner-feature h3{
+    padding:1.5rem 0;
+    color:#1a1a1a;
+    font-weight: 600;
+    font-size:2rem;
+}
+.inner-feature p{
+    color:#999999;
+}
+
+.left-moblie .left-moblie-img {
+    width: 85%;
+}
+.right-content{
+    width:100%;
+    float:left;
+}
+.right-content h5{
+     color: #0476b1;
+    padding:2rem 0;
+    text-transform: uppercase;
+    text-align: left;
+}
+.right-content h2{
+     padding:2.5rem 0;
+    color:#1a1a1a;
+    font-weight: 600;
+    font-size:2rem;
+    background:url(../images/nav-img.png) left bottom no-repeat;
+}
+.right-content p{
+    color:#999999;
+    margin:2.5rem 0;
+}
+
+.ul-list ul li{
+    font-size:1.3rem;
+    font-weight: 600;
+    color:#1b1b1b;
+}
+.ul-list img{ 
+   margin:1.1rem 0rem;
+    padding-right: 1rem
+}
+ 
+/******************************************
+    Feature Section Code End
+*******************************************/
+
+
+/******************************************
+    Customize Section Code Start
+*******************************************/
+.customize-section{
+    width:100%;
+    box-sizing: border-box;
+    background:#f2f2f2;
+    padding:2.5rem 0;
+}
+
+.customize-left{
+    width:100%;
+    margin-top:5rem;
+}
+
+.customize-left h5 {
+    color: #0476b1;
+    padding:.5rem 0;
+    text-transform: uppercase;
+}
+.customize-left h2 {
+    padding: .7rem 0 1.7rem 0;
+    color: #1a1a1a;
+    font-weight: 600;
+    font-size: 2rem;
+    background: url(../images/nav-img.png) left bottom no-repeat;
+}
+
+.customize-left p{
+    color:#999999;
+    margin:2.5rem 0;
+}
+.customize-righ{
+     width:100%   
+}
+.customize-right .customize-right-img{
+    width:95%;
+    
+}
+
+/******************************************
+    Customize Section Code End
+*******************************************/
+
+/******************************************
+   testimonial Section Code Stsrt
+*******************************************/
+.testimonial{
+    width:100%;
+    background:url(../images/Testimonials.png) center top no-repeat;
+    background-size:cover;
+    padding:3rem 0 14rem 0;
+}
+
+.testimonial h5 {
+    color: #0476b1;
+    padding:.5rem 0;
+    text-transform: uppercase;
+     text-align: center;
+}
+.testimonial h3 {
+    padding: .7rem 0 1.7rem 0;
+    color: #fff;
+    font-weight: 600;
+    font-size: 2rem;
+    background: url(../images/nav-img.png)  bottom no-repeat;
+     text-align: center;
+    margin-bottom: 8rem;
+}
+
+.owl-carousel .item h5 {
+    color: #f2f2f2;
+    padding:.5rem 64rem 0rem 6rem;
+    font-size: 1.8rem;
+    text-align: left;
+    text-transform: full-size-kana;
+    line-height:2.4rem;
+    font-style:italic;
+    font-weight:500;
+    margin-bottom: 2rem;
+}
+.owl-carousel .item .media img{
+    width:8%;
+    margin-right: 2rem;
+}
+.owl-carousel .item .media .media-body h5{
+    font-size:1.6rem;
+    line-height: 0;
+}
+.media-body {
+    margin: 2rem 0 0 2.5rem;
+}
+.owl-carousel .item .media p{
+    font-size:1.2rem;
+    color:#f2f2f2;
+}
+
+.owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 15rem;
+}
+ .owl-carousel .item .media h6 {
+    font-size: 1.6rem;
+    color: #fff;
+    font-weight: 300;
+}
+
+
+/******************************************
+   testimonial Section Code End
+*******************************************/
+
+
+/******************************************
+    Qulity-submit Section Code Start
+*******************************************/
+.qulity-submit{
+    width:100%;
+    background:#15141a;
+    padding:3.3rem 0;
+}
+
+.qulity-submit-text h2{
+    display: inline-block;
+    color:#fff;
+    font-size:2.5rem;
+    font-weight: 600;
+}
+.qulity-submit-text span{
+    color:#535357;
+     font-size:2.5rem;
+    font-weight: 600;
+}
+
+.qulity-submit-btn{
+    float:right;
+    margin-top:.3rem;
+}
+.qulity-submit-btn .btn-primary {
+    color: #fff;
+    background:transparent;
+    border-color: #007bff;
+    padding: 1rem 3.5rem;
+    border-radius: 0.4rem;
+    margin-right: 2.5rem;
+    font-size: 1.3rem;
+     border:.1rem solid #4b494d;
+    transition: 1s;
+}
+.qulity-submit-btn .btn-primary:hover{
+    background-color: #008ed6;
+    transition: 1s;
+}
+.qulity-submit-btn .btn-info{
+    color: #fff;
+    background-color: #008ed6;
+    border-color: #007bff;
+    padding: 1rem 3.5rem;
+    border-radius: 0.4rem;
+    font-size: 1.3rem;
+    transition: 1s;
+ 
+}
+/******************************************
+    Qulity-submit Section Code End
+*******************************************/
+
+/******************************************
+    Qulity-Price Section Code Start
+*******************************************/
+.qulity-price{
+   width:100%;
+    padding:3rem 0;
+    text-align: center;
+}
+
+.qulity-price-title h5 {
+    color: #0476b1;
+    padding:.5rem 0;
+    text-transform: uppercase;
+     text-align: center;
+}
+.qulity-price-title  {
+    margin-bottom: 8rem;
+}
+.qulity-price-title h3 {
+    padding: .7rem 0 2rem 0;
+    color: #1a1a1a;
+    font-weight: 600;
+    font-size: 2rem;
+    background: url(../images/nav-img.png)  bottom no-repeat;
+     text-align: center;
+}
+
+ .price h3{
+    color:#1a1a1a;
+    font-size:2.5rem;
+}
+
+.card .card-header{
+    background:none;
+}
+.card:hover h1{
+    color:#008ed6;
+}
+.card .price {
+    width: 100%;
+    padding: 2.5rem 0 4.5rem 0;
+    border-bottom: .1rem solid #ccc;
+}
+.card:hover .price{
+    background:#008ed6;
+} 
+.card .price p{
+    color:#999;
+}
+.card:hover .price p{
+    color:#fff;
+}
+.card:hover .price h2{
+    color:#fff;
+}
+.card .price h2{
+    font-size:4.3rem;
+}
+
+.card .card-content p {
+    font-size: 1.4rem;
+    color: #999;
+    padding: 2rem 4rem;
+}
+
+.card .card-content span{
+    color:#008ed6;
+}
+
+.btn-price{
+    margin-top:1.5rem;
+}
+
+.btn-success  {
+    color:#1a1a1a;
+     border:1px solid rgba(0,0,0,.125);
+    padding: 1rem 4rem;
+    margin-bottom: 2rem;
+    background: none;  
+    font-weight:600;
+    font-size: 1.4rem
+}
+.card:hover .btn-success{
+    color:#fff; 
+    background:#008ed6;
+} 
+
+
+/******************************************
+    Qulity-Price Section Code End
+*******************************************/
+
+/******************************************
+    Contact Section Code Start
+*******************************************/
+.contact-section{
+    width:100%;
+    padding:3rem 0;
+    background:#ededed;
+    bottom:0;
+    
+}
+.contact-inner{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 8rem;
+}
+
+.contact-inner img{
+    padding: 2.5rem 0;
+}
+.contact-inner h6{
+    color: #999999;
+    font-size:1.2rem;
+    font-weight:400;
+    line-height: 2rem;
+
+}
+.main-form {
+    width: 100%;
+    background: #000;
+    padding: 3rem 0 5rem 0;
+    margin-bottom: -10rem;
+}
+.main-form .left-form{
+    width:100%;
+}
+.main-form .left-form input {
+    background: transparent;
+    padding: 1.8rem 1.7rem;
+    border-radius: 0.5rem;
+    border: .1rem solid #444348;
+    color: #444348;
+    width:75%;
+    margin: 1rem 0 1rem 5.5rem;
+}
+.main-form .right-form{
+    width:100%;
+}
+.right-form textarea {
+    width: 85%;
+    padding: 1rem 0 6.3rem 1rem;
+    background: transparent;
+    border-radius: .4rem;
+    border: .1rem solid #444348;
+    color: #444348;
+    margin-top: 0.8rem;
+}
+.text-btn .btn-primary {
+    padding: 1rem 2.8rem;
+    float: right;
+    margin-right: 5.1rem;
+    margin-top: 1rem;
+}
+
+
+
+
+
+/******************************************
+    Contact Section Code End
+*******************************************/
+
+
+/******************************************
+    Footer Section Code Start
+*******************************************/
+
+.footer-section{
+    width:100%;
+    padding:2.5rem 0rem;
+    background:#15141a;
+    text-align: center;
+}
+.footer-section ul li{
+    display: inline-block;
+    padding:1rem;
+    margin-left: 2.6rem;
+    color:#3b3a3f;
+    
+}
+.social-icon p{
+    font-size: 2rem;
+    font-weight: 500;
+    color:#3b3a3f;
+}
+.footer-section ul li:hover{
+    color:#008ed6
+}
+
+/******************************************
+    Footer Section Code End
+*******************************************/
+
+
+
